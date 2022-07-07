@@ -1,0 +1,13 @@
+{
+  "name": "@mono/ds",
+  "version": "0.1.0",
+  "scripts": {},
+  "dependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*",
+    "@vanilla-extract/css": "*"
+  },
+  "sideEffects": false,
+  "devDependencies": {}
+}
