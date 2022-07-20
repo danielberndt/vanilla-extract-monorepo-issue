@@ -1,17 +1,12 @@
-import {Box} from "@mono/ds/Box";
+import {dsStyles} from "../../ds/dsStyles.css";
 import {myStyle} from "./App.css";
 
 export const App = () => (
-  <Box display="flex">
+  <div className={dsStyles.display.flex}>
     <div className={myStyle}>
       <div>2</div>
       <div>Y</div>
     </div>
-    <Box>3</Box>
-    <Box display="flex">
-      <div>A</div>
-      <div>B</div>
-      <div>C</div>
-    </Box>
-  </Box>
+    <div>C</div>
+  </div>
 );
